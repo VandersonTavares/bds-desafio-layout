@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.navbar-menu{
+    min-height: 70px;
+}
+.navbar h4{
+    color: #00285F;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-nav a{
+    color: #00285F;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.navbar-nav a:hover{
+    font-weight: 700;
+}
+.active{
+    font-weight: 700 !important;
+}
+
+@media(min-width:1280px){
+    .navbar h4{
+        margin-left: 150px;
+    }
+    .navbar-nav{
+        margin-right: 150px;
+    }
+}

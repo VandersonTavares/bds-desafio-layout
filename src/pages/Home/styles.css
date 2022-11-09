@@ -1,0 +1,166 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.home-top-interior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container-top {
+  background-color: #00285f;
+  border-radius: 10px;
+  margin: 10px;
+  height: 365px;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.home-top-interior svg {
+  margin: 62px 28px 35px 28px;
+}
+
+.home-top-interior h5 {
+  font-size: 22px;
+  font-weight: 700;
+  
+}
+.home-top-interior p {
+  margin: 0px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.home-container-bottom {
+  width: 300px;
+  height: 123px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ededed;
+  text-align: center;
+}
+
+.home-container-bottom button {
+  margin-top: 28px;
+  width: 174px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #00285f;
+}
+
+.home-container-bottom p {
+  margin-top: 8px;
+  color: #585858;
+  font-size: 18px;
+}
+.btn a{
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .home-container-top {
+    width: 536px;
+    height: 365px;
+  }
+  .home-top-interior svg {
+    width: 333px;
+    height: 199px;
+    margin: 22px 102px 19px 101px;
+  }
+  .home-top-interior h5 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .home-top-interior p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 420px;
+  }
+  .home-container-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 536px;
+  }
+  .home-container-bottom button {
+    margin: 0px 16px 0px 0px;
+  }
+  .home-container-bottom p {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container-top {
+    width: 728px;
+    height: 475px;
+  }
+  .home-container-bottom {
+    display: flex;
+    width: 728px;
+    justify-content: left;
+  }
+  .home-container-bottom button {
+    margin-left: 85px;
+  }
+  .home-top-interior svg {
+    width: 333px;
+    height: 199px;
+    margin: 79px 198px 37px 197px;
+  }
+  .home-top-interior h5 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .home-top-interior p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 420px;
+  }
+
+  @media (min-width: 992px) {
+    .home-container-top {
+      width: 952px;
+      height: 579px;
+    }
+    .home-container-bottom {
+      width: 952px;
+    }
+    .home-container-bottom button {
+      margin-left: 85px;
+    }
+    .home-top-interior svg {
+      width: 455px;
+      height: 272px;
+      margin: 82px 269px 17px 248px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .home-container-top {
+      width: 979px;
+      height: 365px;
+    }
+    .home-top-interior svg {
+      width: 333px;
+      height: 199px;
+      margin: 83px 0px 83px 63px;
+    }
+    .home-top-interior {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .home-top-interior p {
+      text-align: left;
+    }
+    .home-container-bottom {
+      width: 979px;
+    }
+  }
+}
